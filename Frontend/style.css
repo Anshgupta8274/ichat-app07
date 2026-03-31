@@ -1,0 +1,73 @@
+body {
+    background: linear-gradient(to bottom, #d9c7ff, #7b4df5);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.logo {
+    display: block;
+    margin: 10px auto;
+    height: 60px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    height: 60vh;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    overflow-y: auto;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    padding: 10px 15px;
+    margin: 8px 0;
+    border-radius: 15px;
+    max-width: 60%;
+    border: 1px solid rgba(0,0,0,0.2);
+    word-wrap: break-word;
+}
+
+.left {
+    align-self: flex-start;
+    background-color: #e2e2e2;
+}
+
+.right {
+    align-self: flex-end;
+    background-color: #7b4df5;
+    color: white;
+}
+
+.send {
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+#send-container {
+    display: flex;
+}
+
+#messageInp {
+    flex: 1;
+    padding: 12px;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

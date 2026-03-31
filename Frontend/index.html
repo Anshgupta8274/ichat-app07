@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>iChat App</title>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script defer src="client.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <img class="logo" src="Chat-Bubble-Logo-.jpg" alt="">
+
+    <h1>Welcome to iChat App</h1>
+
+    <div class="container" id="message-container"></div>
+
+    <div class="send">
+        <form id="send-container">
+            <input type="text" id="messageInp" placeholder="Type message...">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+
+</body>
+</html>
